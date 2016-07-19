@@ -12,7 +12,6 @@ module.exports = function (config) {
     colors: true,
     concurrency: Infinity,
     files: [
-      'test/setup.js',
       'test/**/*.js'
     ],
     frameworks: ['chai', 'mocha'],
