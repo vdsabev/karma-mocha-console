@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "karma-mocha-console",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm install && npm run test-watch",
+    "test": "karma start karma.config.js --single-run",
+    "test-watch": "karma start karma.config.js"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "karma": "^1.1.1",
+    "karma-chai": "^0.1.0",
+    "karma-cli": "^1.0.1",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "mocha": "^2.5.3"
+  }
+}
