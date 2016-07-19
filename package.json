@@ -7,7 +7,7 @@
     "test": "karma start karma.config.js --single-run",
     "test-watch": "karma start karma.config.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "chai": "^3.5.0",
     "karma": "^1.1.1",
     "karma-chai": "^0.1.0",

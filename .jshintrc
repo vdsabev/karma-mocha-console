@@ -7,7 +7,7 @@
   "latedef": "nofunc",
   "noarg": true,
   "node": true,
-  "predef": ["mocha", "chai", "describe", "it", "before", "after", "beforeEach", "afterEach"],
+  "predef": ["document", "mocha", "chai", "describe", "it", "before", "after", "beforeEach", "afterEach"],
   "shadow": "outer",
   "smarttabs": true,
   "strict": true,
