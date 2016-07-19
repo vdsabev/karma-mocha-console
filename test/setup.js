@@ -1,9 +1,6 @@
 // Setup mocha
 (function () {
-  // Create mocha reporting element
-  var mochaElement = document.createElement('div');
-  mochaElement.id = 'mocha';
-  document.body.appendChild(mochaElement);
+  'use strict';
 
   mocha.setup('bdd');
-}())
+}());

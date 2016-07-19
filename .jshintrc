@@ -7,11 +7,7 @@
   "latedef": "nofunc",
   "noarg": true,
   "node": true,
-  "predef": [
-    "$", "_", "angular", "d3", "google", "Honeybadger", "Howl", "io", "jstz", "moment", "mpld3", "notify",
-    "mocha", "chai", "describe", "it", "before", "after", "beforeEach", "afterEach",
-    "module", "inject"
-  ],
+  "predef": ["mocha", "chai", "describe", "it", "before", "after", "beforeEach", "afterEach"],
   "shadow": "outer",
   "smarttabs": true,
   "strict": true,
